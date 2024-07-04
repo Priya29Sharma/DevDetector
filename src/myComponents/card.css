@@ -1,0 +1,127 @@
+body {
+    background-image: url('../myComponents/images/lap8.webp'); /* Set background image */
+    background-size: cover; /* Ensure image covers the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    image-rendering: crisp-edges; /* Optimize rendering for pixelated images */
+    image-rendering: -webkit-optimize-contrast; /* Optimize contrast for Webkit browsers */
+    /* background-color: #023020; */
+  }
+  
+  .main-page {
+    position: absolute;
+    text-align: center; /* Center text within the main page */
+    border-radius: 10px; /* Rounded corners for the main page */
+    background-color: transparent; /* Transparent background */
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1.5); /* White shadow around the main page */
+  }
+  
+  h1 {
+    color: #fff; /* White color for the heading */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); /* Adds a subtle shadow to the heading */
+    font-size: 40px; /* Font size for the heading */
+    transition: transform 0.3s ease-in-out;/* Smooth transition for zoom effect */
+  }
+  h1:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+}
+  
+  .center {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .card {
+    width: 800px;
+    height: 400px;
+    background-color: transparent; /* Transparent background */
+    display: flex; /* Flexbox layout for card */
+    border-radius: 10px; /* Rounded corners for the card */
+    color: #fff; /* White text color */
+  }
+  
+  .left-container {
+    height: 360px;
+    background-color: transparent; /* Transparent background */
+    width: 30%;
+    margin: 10px; /* Margin around the left container */
+    border-radius: 5px; /* Rounded corners for the left container */
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5); /* White shadow around the left container */
+  }
+  
+  .right-container {
+    height: 390px;
+    width: 70%; /* 70% width for the right container */
+  }
+  
+  .Avtaar {
+    width: 140px;
+    height: 140px;
+    margin-top: 35px; /* Top margin */
+    border-radius: 50%; /* Rounded image (circle) */
+  }
+  
+  .box1 {
+    margin-top: 15px; /* Top margin */
+    display: flex; /* Flexbox layout for box1 */
+    align-items: center; /* Center items vertically */
+    padding: 5px; /* Padding inside box1 */
+  }
+  
+  .userName {
+    margin-right: 220px; /* Right margin */
+    margin-left: 20px; /* Left margin */
+    margin-bottom: -10px; /* Negative bottom margin */
+  }
+  
+  .joined-date {}
+  
+  .id-link {
+    text-align: left; /* Left-align text */
+    margin-left: 20px; /* Left margin */
+    padding: 5px; /* Padding inside id-link */
+    color: black; /* Black text color */
+    margin-bottom: -10px; /* Negative bottom margin */
+  }
+  
+  .bio {
+    text-align: left; /* Left-align text */
+    margin-left: 20px; /* Left margin */
+    padding: 5px; /* Padding inside bio */
+    margin-bottom: -15px; /* Negative bottom margin */
+  }
+  
+  .numbers {
+    width: 500px; /* Fixed width */
+    display: flex; /* Flexbox layout for numbers */
+    margin-left: 20px; /* Left margin */
+    justify-content: space-between; /* Space between elements */
+    padding: 5px; /* Padding inside numbers */
+    background-color: transparent; /* Transparent background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5); /* White shadow around numbers */
+  }
+  
+  .box21 {
+    display: flex; /* Flexbox layout for box21 */
+    width: 510px; /* Fixed width */
+    margin-left: 20px; /* Left margin */
+    padding: 5px; /* Padding inside box21 */
+    justify-content: space-between; /* Space between elements */
+    margin-bottom: -15px; /* Negative bottom margin */
+  }
+  
+  .box22 {
+    display: flex; /* Flexbox layout for box22 */
+    width: 510px; /* Fixed width */
+    margin-left: 20px; /* Left margin */
+    padding: 5px; /* Padding inside box22 */
+    justify-content: space-between; /* Space between elements */
+  }
+  
+  .search {
+    color: transparent; /* Transparent text color */
+  }
+  
